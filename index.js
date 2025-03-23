@@ -12,7 +12,7 @@ import checkAuth from './utils/checkAuth.js';
 import { MongoUnexpectedServerResponseError } from 'mongodb';
 import handlevallidationerrors from './utils/handlevallidationerrors.js';
 
-mongoose.connect('mongodb+srv://Imp1lsinus:1234567890@cluster7.lgyya.mongodb.net/blog', {
+mongoose.connect('mongodb+srv://Imp1lsinus:**********@cluster7.lgyya.mongodb.net/blog', {
  // подключает MongoDB
     useNewUrlParser: true,
     useUnifiedTopology: true,
